@@ -1,0 +1,49 @@
+body {
+  background-color: #fcfaf5;
+}
+
+.container {
+  background-color: #fff;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-bottom: 0;
+}
+
+.slider {
+  width: 500px;
+}
+
+.slider__image {
+  border: 10px solid #F4F5F7;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 50px;
+}
+
+.slick-prev::before,
+.slick-next::before,
+.slick-dots li.slick-active button:before {
+  color: #ff9800;
+}
+
+@media (max-width: 600px) {
+  .container,
+  .slider {
+    width: 100%;
+  }
+}
